@@ -4,6 +4,6 @@ public class Bow : Weapon
 {
     public override void Attack()
     {
-        Debug.Log("Shooting arrow");
+        Debug.Log($"Shooting bow with {GetDamage()} damage");
     }
 }
